@@ -50,7 +50,6 @@ h1{
 }
 
 #buttons_div{
-    background-color: gey;
     width: 100%;
     left: 0;
     position: absolute;
@@ -58,7 +57,7 @@ h1{
 }
 
 #add_button, #clr_done_button{
-
+    color: white;
     background-color: royalblue;
 }
 
@@ -70,7 +69,7 @@ h1{
     background-color: limegreen;
 }
 
-.btn{
+.btn2{
     color: white;
     border: 2px solid rgba(255,255,255,0.5);
     box-shadow: 0 0 2px rgb(82, 82, 82);
