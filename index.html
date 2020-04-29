@@ -14,13 +14,22 @@
         <div id="row1" class="row justify-content-center mt-5">
             <div id="panel" class="col-md-10 mt-6">
 
-                <h1>Lista de Tarefas</h1>
+                <h1>LISTA DE TAREFAS</h1>
 
                 <em>Clique duas vezes em um item para marcá-lo como feito.</em>
 
-                <div id="add_div" class="row w-100 my-5 mx-0 px-0 container-md justify-content-sm-start">
-                    <input id="add_text" type="text" class="col-sm-7 col-12 mb-4" placeholder="Digite o novo item da lista...">
-                    <button id="add_button" class="buttons ml-sm-4 px-auto offset-9 mr-0" type="button"> Adicionar </button>
+                <!-- BACKUP OF INPUT BUTTON DIV-->
+                <!--div id="add_div" class="input-group mb-3 row w-100 my-5 mx-0 px-0 container-md justify-content-sm-start">
+                    <input id="add_text" type="text" class="form-control col-sm-7 col-12 mb-4" placeholder="Digite o novo item da lista...">
+                    <button id="add_button" class=" ml-sm-4 px-auto offset-9 mr-0" type="button"> Adicionar </button>
+                </div-->
+
+
+                <div id="add_div" class="input-group mb-3 py-4">
+                    <input id="add_text" type="text" class="form-control" placeholder="Digite o novo item da lista..." aria-label="Entrada de texto">
+                    <div class="input-group-append">
+                      <button id="add_button" class="btn btn-outline-secondary" type="button" id="button-addon2">Adicionar</button>
+                    </div>
                 </div>
 
                 <div id="todo_list_div">
@@ -29,9 +38,9 @@
                 </div>
 
                 <div id="buttons_div" class="d-flex flex-row justify-content-around ">
-                    <button id="clr_done_button" class="buttons" type="button"> Remover feitos </button>
-                    <button id="empty_button" class="buttons" type="button"> Limpar lista </button>
-                    <button id="save_button" class="buttons" type="button"> Salvar lista </button>
+                    <button id="clr_done_button" class="btn btn-primary " type="button"> Remover feitos </button>
+                    <button id="empty_button" class="btn btn-primary " type="button"> Limpar lista </button>
+                    <button id="save_button" class="btn btn-primary " type="button"> Salvar lista </button>
                 </div>
 
 
@@ -39,6 +48,9 @@
         </div>
     </div>
     
+    <footer>
+        Desenvolvido por João Vitor.
+    </footer>
 
 
 </body>

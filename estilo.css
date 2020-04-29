@@ -2,12 +2,26 @@ body{
     background-color: springgreen ;
 }
 
+footer{
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 15px rgb(0, 64, 32);
+    background-color: rgb(0, 128, 64);
+}
+
 .container-fluid{
     width: 98%;
     margin: auto;
 }
 
-
+h1{
+    color: rgb(0, 128, 64);
+    font-family: Impact, Charcoal, sans-serif
+}
 
 #panel {
 
@@ -24,7 +38,6 @@ body{
 
 #add_text{
     padding-left: 5px;
-    height: 30px;
 }
 
 #todo_list {
@@ -36,8 +49,16 @@ body{
     user-select: none;
 }
 
+#buttons_div{
+    background-color: gey;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: 40px;
+}
 
 #add_button, #clr_done_button{
+
     background-color: royalblue;
 }
 
@@ -46,16 +67,13 @@ body{
 }
 
 #save_button{
-    background-color: lawngreen;
+    background-color: limegreen;
 }
 
-.buttons{
-    box-shadow: 0 0 5px grey;
+.btn{
     color: white;
-    border: none;
-    height: 30px;
-    padding: 0 20px;
-    border-radius: 15px;
+    border: 2px solid rgba(255,255,255,0.5);
+    box-shadow: 0 0 2px rgb(82, 82, 82);
 }
 
 .completed{
