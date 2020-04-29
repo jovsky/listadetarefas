@@ -1,0 +1,61 @@
+body{
+    background-color: springgreen ;
+}
+
+#panel {
+
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+    padding: 50px;
+    top: 100px;
+    box-shadow: 0 0 15px darkolivegreen;
+}
+
+#add_div{
+    padding: 40px 0;
+}
+
+
+#add_text{
+    width: 50%;
+    padding-left: 5px;
+    margin-right: 20px;
+    height: 30px;
+}
+
+#todo_list {
+    margin-bottom: 50px;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#add_button, #clr_done_button{
+    background-color: royalblue;
+}
+
+#empty_button{
+    background-color: firebrick;
+}
+
+#save_button{
+    background-color: lawngreen;
+}
+
+.buttons{
+    box-shadow: 0 0 5px grey;
+    color: white;
+    border: none;
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 15px;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: grey;
+    font-style: italic;
+}
