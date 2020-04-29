@@ -35,6 +35,7 @@ body{
     user-select: none;
 }
 
+
 #add_button, #clr_done_button{
     background-color: royalblue;
 }
